@@ -107,3 +107,22 @@ function anagram(str1, str2) {
 console.log(anagram("dusty", "study")); // Output: true
 
 
+function countVowel(str){
+    let vowels = ['a','e','i','o','u']
+    count =0 
+    for(let i=0;i<str.length;i++){
+        if (vowels.includes(str[i].toLowerCase())){
+            count++
+        }
+    }
+
+    console.log(count)
+
+}
+
+countVowel("qwertyuiop")
+
+function largestNumber(arr){
+     
+
+}
